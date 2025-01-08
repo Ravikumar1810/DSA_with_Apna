@@ -15,3 +15,4 @@ class AreaOfRectangle
           double  area=l*b;
       System.out.println("Area of Rectangle is: " + area);      
    }
+}   
