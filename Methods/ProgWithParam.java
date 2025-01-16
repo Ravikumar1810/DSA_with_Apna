@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ProgWithParam {
 
-    public static  int SumNumber(int num1 , int num2) {
+    public static  int SumNumber(int num1 , int num2) {  //parameters or formal parameters
         int sum = num1 + num2;
         return sum;
 
@@ -16,7 +16,7 @@ public class ProgWithParam {
         System.out.print("Enter the Second Number");
         int b = sc.nextInt();
 
-        int sum = SumNumber(a, b);
+        int sum = SumNumber(a, b);  //Arguements or Actuall parameters
         System.out.println("The sum is : " +sum );
     }
 }
