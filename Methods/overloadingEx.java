@@ -2,9 +2,12 @@ package methods;
 
 public class overloadingEx {
     
+    //function to call sum of 2 number
     public static int sum(int a, int b) {
         return a+b;
     }
+    
+    //function to call sum of 3 number
     public static int sum(int a , int b, int c) {
         return a+b+c;
     }
