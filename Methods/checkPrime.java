@@ -7,7 +7,7 @@ public class checkPrime {
             return true;
         }
     
-        for(int i =2; i<=n-1; i++) {
+        for(int i =2; i<=n-1; i++) { //We can use optimized approach here using Marh.sqrt(n)
             if(n % i == 0) {   //completly divisible
                 return  false;
             }
