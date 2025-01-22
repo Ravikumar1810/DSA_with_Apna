@@ -21,6 +21,6 @@ public class bin {
     }
 
     public static void main(String[] args) {
-        binToDec(1000);
+        binToDec(10001);
     }
 }
