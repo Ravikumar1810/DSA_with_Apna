@@ -1,4 +1,4 @@
-package methods;
+package Methods;
 
 public class Binomial {
     public static int binCoff (int n, int r) {

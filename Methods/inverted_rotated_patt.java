@@ -1,4 +1,4 @@
-package methods;
+package Methods;
 
 public class inverted_rotated_patt {
     

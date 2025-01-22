@@ -1,4 +1,4 @@
-package methods;
+package Methods;
 
 public class Facto {
     public static int factorial(int n) {
