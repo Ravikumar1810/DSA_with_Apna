@@ -1,3 +1,5 @@
+/// finding the linear search in the Array
+
 package Arrays.Array_1;
 
 public class LinearSerch {  
