@@ -7,12 +7,12 @@ public class largestno {
     public static int  getLatestNum(int numbers[]) { 
      int largest = Integer.MIN_VALUE; 
      int smallest = Integer.MAX_VALUE;
-        for(int i = 0; i<numbers.length; i++) {
-            if(largest < numbers[i]) {
+        for(int i = 0; i<numbers.length; i++) {  //index 
+            if(largest < numbers[i]) { //largest number
                 largest = numbers[i];
             }
 
-            if(smallest > numbers[i]) {
+            if(smallest > numbers[i]) { //smallest number
                 smallest = numbers[i];
             }
         }
