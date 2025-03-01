@@ -10,7 +10,7 @@ class ALexample {
         a1.remove(3);
         System.out.println(a1);
         for (int i = 0; i < a1.size(); i++) {
-            System.out.print(a1.get(i) + " ");
+            System.out.print(a1.get(i) + "  ");
         }
     }
 }
