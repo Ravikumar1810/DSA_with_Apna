@@ -6,7 +6,7 @@ public class PatternPrinter {
         int increment = 5;
         int sum = 0;
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 10; i++) {
             sum = start + increment;
             System.out.println(start + " + " + increment + " = " + sum);
             start = sum;
