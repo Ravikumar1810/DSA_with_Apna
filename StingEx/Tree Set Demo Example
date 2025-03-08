@@ -1,0 +1,16 @@
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+    public static void main(String[] args) {
+        TreeSet<String> ts = new TreeSet<>();
+        ts.add("Java");
+        ts.add("For");
+        ts.add("Programmers");
+        ts.add("ls");
+        Iterator<String> itr = ts.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+    }
+}
