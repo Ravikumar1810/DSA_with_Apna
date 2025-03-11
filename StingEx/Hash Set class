@@ -1,0 +1,19 @@
+import java.util.HashSet;
+
+public class HashSetClass {
+    public static void main(String[] args) {
+        HashSet<String> hset = new HashSet<String>();
+        hset.add("suzuki");
+        hset.add("suzuki1");
+        hset.add("suzuki2");
+        hset.add("suzuki3");
+        hset.add("suzuki4");
+        hset.add("suzuki5");
+        hset.add("suzuki6");
+        hset.add("suzuki7");
+        hset.add(null);
+        hset.add(null);
+        System.out.println(hset);
+
+    }
+}
