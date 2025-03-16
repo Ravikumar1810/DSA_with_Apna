@@ -3,7 +3,7 @@ public class QueueInterface {
     public static void main(String[] args) {
 	Queue<String>queue=new LinkedList<>();
 	queue.add("Apple");
-	queue.add("Mango");
+	queue.add("Pine-Apple");
 	queue.add("Grapes");
 	queue.add("Banana");
 	System.out.println(queue);
