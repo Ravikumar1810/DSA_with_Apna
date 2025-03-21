@@ -1,0 +1,19 @@
+import java.util.HashSet;
+
+public class HashSetClass {
+    public static void main(String[] args) {
+        HashSet<String> hset = new HashSet<String>();
+        hset.add("suzuki");
+        hset.add("kawasaki");
+        hset.add("bmw");
+        hset.add("honda");
+        hset.add("bazaz");
+        hset.add("royal enfild");
+        hset.add("KTM");
+        hset.add("yamaha");
+        hset.add(null);
+        hset.add(null);
+        System.out.println(hset);
+
+    }
+}
